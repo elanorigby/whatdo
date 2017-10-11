@@ -1,0 +1,15 @@
+files:
+.whatdo/
+.whatdo/whatdoing - current doing list
+.whatdo/whatdid - history (with dates) of everything ever added to .whatdo
+
+commands:
+whatwasidoing = cat ~/.whatdo/whatdoing
+whathaveidone = cat ~/.whatdo/whatdid
+amdoing "string that will overwrite whatdo"
+amalsodoing "string appended to whatdo"
+
+PHASE ONE
+whatwasidoing = cat ~/.whatdo/whatdoing
+amdoing "string that will overwrite whatdo"
+
